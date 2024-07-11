@@ -1,0 +1,16 @@
+[
+  {
+    "model": "main.user",
+    "pk": 1,
+    "fields": {
+      "is_superuser": true,
+      "username": "mostafa",
+      "email": "mostafanawam44@gmail.com",
+      "password": "pbkdf2_sha256$600000$LVbclDpsEDBfc6b3TemRbl$gtGy/f73Wg9gjJJAo7+XICHfqJGNumAv/sF/ZjG2EHs=",
+      "is_staff": true,
+      "is_enabled": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
