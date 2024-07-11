@@ -1,1 +1,1 @@
-# bayan
+# django_start
