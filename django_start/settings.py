@@ -82,10 +82,10 @@ WSGI_APPLICATION = 'django_start.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASE_TYPE=os.getenv('DATABASE_TYPE','sqlite')
-POSTGRES_HOST=os.getenv("POSTGRES_HOST", "127.0.0.1")
-POSTGRES_PASSWORD=os.getenv("POSTGRES_PASSWORD", "postgres1")
-POSTGRES_USER=os.getenv("POSTGRES_USER", "postgres1")
-POSTGRES_NAME=os.getenv("POSTGRES_NAME", "proventus")
+POSTGRES_HOST=os.getenv("POSTGRES_HOST", "")
+POSTGRES_PASSWORD=os.getenv("POSTGRES_PASSWORD", "")
+POSTGRES_USER=os.getenv("POSTGRES_USER", "")
+POSTGRES_NAME=os.getenv("POSTGRES_NAME", "")
 POSTGRES_PORT=os.getenv("POSTGRES_PORT", "5432")
 POSTGRES_ENGINE=os.getenv("POSTGRES_ENGINE", 'django.db.backends.postgresql')
 
