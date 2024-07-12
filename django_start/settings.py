@@ -182,8 +182,7 @@ ALLOWED_HOSTS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    # "https://www.proventus-solutions.com",
-    # 'https://proventus-solutions.com'
+
 ]
 
 CSRF_TRUSTED_ORIGINS=CORS_ALLOWED_ORIGINS
